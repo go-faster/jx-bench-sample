@@ -1,4 +1,4 @@
-# fx bench sample
+# jx bench sample
 
 ```go
 package main
@@ -82,7 +82,7 @@ Should encode:
 ```console
 goos: linux
 goarch: amd64
-pkg: fx-bench
+pkg: jx-bench
 cpu: AMD Ryzen 9 5950X 16-Core Processor            
 BenchmarkEncode-32  2781439  429.2 ns/op  703.64 MB/s  0 B/op  0 allocs/op
 BenchmarkEncode-32  2773333  430.6 ns/op  701.39 MB/s  0 B/op  0 allocs/op

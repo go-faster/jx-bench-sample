@@ -1,4 +1,4 @@
-module fx-bench
+module jx-bench
 
 go 1.17
 
