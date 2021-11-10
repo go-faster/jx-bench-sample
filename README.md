@@ -80,20 +80,21 @@ Should encode:
 ```
 
 ```console
+$ go test -run ^$ -count 10 -bench BenchmarkEncode
 goos: linux
 goarch: amd64
 pkg: jx-bench
 cpu: AMD Ryzen 9 5950X 16-Core Processor            
-BenchmarkEncode-32  2781439  429.2 ns/op  703.64 MB/s  0 B/op  0 allocs/op
-BenchmarkEncode-32  2773333  430.6 ns/op  701.39 MB/s  0 B/op  0 allocs/op
-BenchmarkEncode-32  2722332  428.6 ns/op  704.70 MB/s  0 B/op  0 allocs/op
-BenchmarkEncode-32  2773780  435.3 ns/op  693.74 MB/s  0 B/op  0 allocs/op
-BenchmarkEncode-32  2759192  428.1 ns/op  705.39 MB/s  0 B/op  0 allocs/op
-BenchmarkEncode-32  2797752  434.3 ns/op  695.35 MB/s  0 B/op  0 allocs/op
-BenchmarkEncode-32  2813332  429.2 ns/op  703.71 MB/s  0 B/op  0 allocs/op
-BenchmarkEncode-32  2801134  434.8 ns/op  694.60 MB/s  0 B/op  0 allocs/op
-BenchmarkEncode-32  2736691  428.2 ns/op  705.35 MB/s  0 B/op  0 allocs/op
-BenchmarkEncode-32  2766651  428.7 ns/op  704.38 MB/s  0 B/op  0 allocs/op
+BenchmarkEncode-32       2768792               429.6 ns/op       703.03 MB/s           0 B/op          0 allocs/op
+BenchmarkEncode-32       2794426               425.6 ns/op       709.53 MB/s           0 B/op          0 allocs/op
+BenchmarkEncode-32       2575532               425.1 ns/op       710.35 MB/s           0 B/op          0 allocs/op
+BenchmarkEncode-32       2719108               423.5 ns/op       713.12 MB/s           0 B/op          0 allocs/op
+BenchmarkEncode-32       2798019               424.3 ns/op       711.73 MB/s           0 B/op          0 allocs/op
+BenchmarkEncode-32       2804731               432.5 ns/op       698.27 MB/s           0 B/op          0 allocs/op
+BenchmarkEncode-32       2806100               417.4 ns/op       723.58 MB/s           0 B/op          0 allocs/op
+BenchmarkEncode-32       2774716               424.1 ns/op       712.04 MB/s           0 B/op          0 allocs/op
+BenchmarkEncode-32       2791240               424.4 ns/op       711.63 MB/s           0 B/op          0 allocs/op
+BenchmarkEncode-32       2761339               424.4 ns/op       711.57 MB/s           0 B/op          0 allocs/op
 PASS
-ok      fx-bench        16.386s
+ok      jx-bench        16.191s
 ```
