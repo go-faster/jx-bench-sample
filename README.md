@@ -3,11 +3,7 @@
 ```go
 package main
 
-import (
-	"fmt"
-
-	"github.com/go-faster/jx"
-)
+import "github.com/go-faster/jx"
 
 func main() {
 	var e jx.Encoder
