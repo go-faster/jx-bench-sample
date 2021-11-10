@@ -22,5 +22,5 @@ func main() {
 	e.ArrEnd()
 
 	fmt.Println(e)
-	// [100,200,300,400,"hello"]
+	// [100,"hello",200,300,"world",400]
 }
