@@ -10,17 +10,6 @@ import (
 	"github.com/go-faster/jx"
 )
 
-func encode(e *jx.Encoder) {
-	e.ArrStart()
-	e.Int64(100)
-	e.Str("hello")
-	e.Int64(200)
-	e.Int64(300)
-	e.Str("world")
-	e.Int64(400)
-	e.ArrEnd()
-}
-
 func BenchmarkEncode(b *testing.B) {
 	b.ReportAllocs()
 	var e jx.Encoder
